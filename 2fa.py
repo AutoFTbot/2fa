@@ -1,7 +1,7 @@
 import telebot
 import pyotp
 
-Tiger = '6918566731:AAFisBJbgYzRfhU7M6LVp6dZNazxfZGadYY'  # Ganti dengan token bot Telegram Anda
+Tiger = '#'  # Ganti dengan token bot Telegram Anda
 bot = telebot.TeleBot(Tiger)
 
 def generate_otp(secret_key):
@@ -23,7 +23,7 @@ def process_secret_key(message):
     else:
         try:
             otp = generate_otp(secret_key)
-            bot.reply_to(message, f"🔒 Kode OTP Anda:\n\n{otp}\n\n✨ Silakan salin (copy) kode di atas untuk digunakan.")
+            bot.reply_to(message, f"🔒 Kode OTP Anda:{otp}\n\n✨ Silakan salin (copy) kode di atas untuk digunakan.")
         except Exception as e:
             bot.reply_to(message, "Terjadi kesalahan dalam menghasilkan OTP. Mohon coba lagi.")
 
