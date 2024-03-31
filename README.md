@@ -1,6 +1,6 @@
 # OTP Generator Telegram Bot
 
-![OTP Generator Telegram Bot](bot_image.png)
+![OTP Generator Telegram Bot](bot_image.jpg)
 
 Selamat datang di OTP Generator Telegram Bot! Bot ini memungkinkan Anda untuk menghasilkan One-Time Password (OTP) menggunakan kunci rahasia yang diberikan. Anda dapat menggunakan OTP ini untuk berbagai keperluan keamanan seperti otentikasi dua faktor (2FA) atau verifikasi identitas.
 
